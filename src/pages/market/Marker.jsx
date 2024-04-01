@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Market = () => {
   const [coin, setCoin] = useState([]);
-  const [loading, setLoading] = useState(true); // State variable for loading state
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     const fetchData = async () => {
@@ -47,7 +47,7 @@ const Market = () => {
   return (
     <div
       name="market"
-      className="w-full flex flex-col h-[1355px] bg-[#0F051D] items-center top-0"
+      className="w-full flex flex-col h-[1355px] bg-[#0F051D] items-center "
     >
       <div className="w-[1250px] flex items-center justify-between">
         <h2 className="text-white text-5xl font-bold font-space ">

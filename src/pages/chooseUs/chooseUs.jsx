@@ -59,7 +59,7 @@ const ChooseUs = () => {
           ))}
         </div>
         <div className="">
-          <img src="" alt="hand img" className="hidden lg:block" />
+          <img src="src\assets\choose-main.39852b7511b28d44406f.png.png" alt="hand img" className="hidden lg:block" />
         </div>
 
         <div className="flex items-center justify-center ">

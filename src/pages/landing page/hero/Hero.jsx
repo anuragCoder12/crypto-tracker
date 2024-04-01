@@ -1,6 +1,3 @@
-import ChooseUs from "../../chooseUs/chooseUs";
-import Market from "../../market/Marker";
-
 const Hero = () => {
   const curencies = [
     {
@@ -25,8 +22,8 @@ const Hero = () => {
         <div className="flex-col items-center justify-center">
           <div className="flex  justify-between ">
             <img
-              className="hidden lg:block"
-              src="../../../assets/bitcoin-logo.png"
+              className="hidden lg:block animate-bounce"
+              src="src\assets\ethereum.c6cffe78f0c6abc85da9.png.png"
               alt="img"
             />
 
@@ -36,8 +33,8 @@ const Hero = () => {
               </h1>
             </div>
             <img
-              className="hidden lg:block"
-              src="../../../assets/bitcoin-logo.png"
+              className="hidden lg:block animate-bounce"
+              src="src\assets\bitcoin.e146d46fb598ae0d8f43.png.png"
               alt="img"
             />
           </div>
@@ -58,8 +55,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <Market />
-      <ChooseUs />
+      
     </div>
   );
 };

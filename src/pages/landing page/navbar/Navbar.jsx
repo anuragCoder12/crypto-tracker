@@ -9,7 +9,7 @@ const Navbar = () => {
     setIsOpen(!isOpen)
   }
   return (
-    <div className="fixed z-[20] top-0 w-full h-[88px] bg-[#130749]  flex items-center justify-center flex-wrap ">
+    <div className=" z-[20] top-0 w-full h-[88px] bg-[#130749]  flex items-center justify-center flex-wrap ">
       <div className="flex w-full items-center justify-center  py-2 px-4  lg:max-w-[1200px] lg:items-center lg:justify-between">
         <p className="text-xl font-bold text-white lg:mr-[180px]">Logo</p>
 
